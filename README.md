@@ -9,6 +9,9 @@ This project focuses on predicting the **age of a speaker** from audio data usin
 ---
 ## Folder Structure
 
+The repository is organized as follows:
+
+```text
 DataScience_Project/
 │
 ├── 📁 datasets/                     
@@ -24,8 +27,7 @@ DataScience_Project/
 │   └── 4_SVR.ipynb                               # Support Vector Regression modeling
 │
 └── 📄 report.pdf                               # Full project report with detailed explanations
-
----
+```
 ## How to Use
 
 1. Open the notebooks in order, starting with `1_feature_extraction_preprocessing.ipynb`.  

@@ -10,9 +10,20 @@ This project focuses on predicting the **age of a speaker** from audio data usin
 ## Folder Structure
 
 DataScience_Project/
-├── datasets/ # Raw and processed datasets
-├── notebooks/ # Jupyter notebooks with the workflow
-└── report.pdf # Full project report with detailed explanations
+│
+├── 📁 datasets/                     
+│   ├── development.csv              # Raw training dataset 
+│   ├── evaluation.csv               # Raw evaluation dataset
+│   ├── train_filtered.csv           # Processed training dataset
+│   ├── evaluation_filtered.csv      # Processed evaluation dataset
+│
+├── 📁 notebooks/                    
+│   ├── 1_feature_extraction_preprocessing.ipynb  # Preprocessing and feature extraction
+│   ├── 2_KNN.ipynb                               # K-Nearest Neighbors modeling
+│   ├── 3_RF.ipynb                                # Random Forest modeling
+│   └── 4_SVR.ipynb                               # Support Vector Regression modeling
+│
+└── 📄 report.pdf                               # Full project report with detailed explanations
 
 ---
 ## How to Use
